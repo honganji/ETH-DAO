@@ -1,35 +1,34 @@
-## Getting Started
+<p align="center">
+  <br />
+  <img width="100" src="./assets/eth-logo.png" alt="ETH Logo" width="400" height="100">
+  <br/>
+  <br />
+  <p align="center">
+<img src="https://img.shields.io/badge/Thirdweb-3.9.0-blue"/>
+<img src="https://img.shields.io/badge/Next-13.0.0-blue?logo=nextdotjs"/>
+<img src="https://img.shields.io/badge/-javascript-blue?logo=javascript"/>
+</p>
 
-Create a project using this example:
+<br/>
 
-```bash
-npx thirdweb create --template next-typescript-starter
-```
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<br/>
 
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+## • Overview
 
-### Deploy to IPFS
+This project is made following [this instructions](https://app.unchain.tech/learn/ETH-DAO/) made by engineer cmmunity `UNCHAIN`. This one is one of the best one to learn blockchain development.
 
-Deploy a copy of your application to IPFS using the following command:
+This is dapp that you can send message and wave to the board. Also, if you're lucky, you can receive token(testnet token) from this contract.
 
-```bash
-yarn deploy
-```
+## • Links
 
-## Learn More
+[Deployed here](https://eth-dao-mu.vercel.app/)
 
-To learn more about thirdweb and Next.js, take a look at the following resources:
+[![Frontend](assets/frontend.png)](https://eth-dao-mu.vercel.app/)
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+## • Launch
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+1. run `yarn install` in terminal.
 
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+2. Finally, run `yarn client start` in terminal and see how it works!
