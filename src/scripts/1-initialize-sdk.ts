@@ -22,10 +22,7 @@ if (!WALLET_ADDRESS || WALLET_ADDRESS === '') {
 }
 
 const sdk = new ThirdwebSDK(
-  new ethers.Wallet(
-    PRIVATE_KEY!,
-    ethers.getDefaultProvider(ALCHEMY_API_URL),
-  ),
+  new ethers.Wallet(PRIVATE_KEY!, ethers.getDefaultProvider(ALCHEMY_API_URL)),
 );
 
 // ここでスクリプトを実行

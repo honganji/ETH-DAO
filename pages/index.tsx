@@ -193,7 +193,7 @@ const Home: NextPage = () => {
       setIsClaiming(true);
       await editionDrop!.claim('0', 1);
       console.log(
-        `🌊 Successfully Minted! Check it out on etherscan: https://sepolia.etherscan.io/address/${editionDrop!.getAddress()}`
+        `🌊 Successfully Minted! Check it out on etherscan: https://sepolia.etherscan.io/address/${editionDrop!.getAddress()}`,
       );
       setHasClaimedNFT(true);
     } catch (error) {
